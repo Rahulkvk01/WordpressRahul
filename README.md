@@ -32,4 +32,4 @@ There should be an existing EC2 keypair to enable SSH access.
 All the parameters like instance type, CIDR range should be valid.
 The usernames and passwords should be alphanumeric
 Maximum number of webserver instances which can be created is 5.
-This Cloudformation script can not be used to deploy on containers. Due to limited time ,could not finish this template to be deployed on ECS.  
+This Cloudformation script can not be used to deploy on ECS.
