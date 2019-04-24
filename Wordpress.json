@@ -82,6 +82,15 @@
 
     
 
+    "WebServerCapacity": {
+      "Default": "1",
+      "Description" : "The initial number of WebServer instances",
+      "Type": "Number",
+      "MinValue": "1",
+      "MaxValue": "5",
+      "ConstraintDescription" : "must be between 1 and 5 EC2 instances."
+    },
+
     "DBAllocatedStorage" : {
       "Default": "5",
       "Description" : "The size of the database (Gb)",
