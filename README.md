@@ -33,3 +33,6 @@ All the parameters like instance type, CIDR range should be valid.
 The usernames and passwords should be alphanumeric
 Maximum number of webserver instances which can be created is 5.
 This Cloudformation script can not be used to deploy on ECS.
+
+Test result:
+The wordpress site created out of the testing is http://ac5-applica-fj0vxpy2uxh2-542650238.ap-southeast-2.elb.amazonaws.com/wordpress.
